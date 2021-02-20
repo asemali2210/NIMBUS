@@ -84,7 +84,7 @@ function Nav() {
                     </Col>
                     <Col md={2} xs={6}>
                         <button className="contact-btn">
-                            <a href="/contact">Contact Me</a>
+                            <Link href="/contact">Contact Me</Link>
                         </button>
                         </Col>
                         </Row>
