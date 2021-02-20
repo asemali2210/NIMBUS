@@ -16,16 +16,16 @@ ReactDOM.render(
   <React.StrictMode>
       <Router>
       <Switch>
-          <Route exact path="/">
+          <Route  path="/">
             <Home />
           </Route>
-          <Route exact path="/blog">
+          <Route  path="/blog">
             <Blog />
           </Route>
-          <Route exact path="/protfolio">
+          <Route  path="/protfolio">
             <Protfolio />
           </Route>
-          <Route exact path="/contact">
+          <Route  path="/contact">
             <Contact />
           </Route>
       </Switch>
