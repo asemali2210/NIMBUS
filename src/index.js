@@ -15,7 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
       <Router>
           <Route exact path="/">
-            <Home />
+            <Blog />
           </Route>
           <Route exact path="/blog">
             <Blog />
