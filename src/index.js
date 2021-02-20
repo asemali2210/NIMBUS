@@ -9,26 +9,23 @@ import 'react-bootstrap/dist/react-bootstrap';
 import './style.scss'
 import {
   BrowserRouter as Router,
-  Route,
-  Switch
+  Route
 } from "react-router-dom"
 ReactDOM.render(
   <React.StrictMode>
       <Router>
-      <Switch>
-          <Route  path="/">
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/blog">
             <Blog />
           </Route>
-          <Route  path="/blog">
-            <Blog />
-          </Route>
-          <Route  path="/protfolio">
+          <Route exact path="/protfolio">
             <Protfolio />
           </Route>
-          <Route  path="/contact">
+          <Route exact path="/contact">
             <Contact />
           </Route>
-      </Switch>
       </Router>
   </React.StrictMode>,
   document.getElementById('root')
