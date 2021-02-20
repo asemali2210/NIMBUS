@@ -17,7 +17,7 @@ ReactDOM.render(
       <Router>
       <Switch>
           <Route  path="/">
-            <Home />
+            <Blog />
           </Route>
           <Route  path="/blog">
             <Blog />
