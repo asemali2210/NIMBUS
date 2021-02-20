@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 function Home() {
   return (
       <div className="home">
-      <Nav />
+        <Nav />
         <Header/>
         <Features />
         <Divider cy={100} />
