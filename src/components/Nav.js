@@ -3,7 +3,7 @@ import Logo from '../Img/Logo.webp'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
+import {Link } from 'react-router-dom'
 function Nav() {
     const [scrollRange, setScrollRange] = useState(false);
     const [openNav, setOpenNav] = useState(false);
@@ -42,16 +42,16 @@ function Nav() {
                         <nav className="links">
                             <ul className="row list-unstyled flex-md-row flex-column  text-center justify-content-around">
                                 <li>
-                                    <a href="/" className="link">Home</a>
+                                    <Link to="/" className="link">Home</Link>
                                 </li>
                                 <li>
-                                    <a href="/blog" className="link">Blog</a>
+                                    <Link to="/blog" className="link">Blog</Link>
                                 </li>
                                 <li>
-                                    <a href="/protfolio" className="link">Protfolio</a>
+                                    <Link to="/protfolio" className="link">Protfolio</Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="link">Shop</a>
+                                    <Link to="#" className="link">Shop</Link>
                                 </li>
                             </ul>
                         </nav>

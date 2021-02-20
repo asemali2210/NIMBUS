@@ -9,14 +9,14 @@ import {
     BrowserRouter as Router,
     Route,
     Switch
-  } from "react-router-dom"
+} from "react-router-dom"
 function App(){
     return(
     <Router>
         <Switch>
 
         <Route exact path="/">
-            <Blog />
+            <Home />
             </Route>
             <Route exact path="/blog">
             <Blog />
